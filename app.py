@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, redirect, url_for, session
 import sqlite3
 import os
 import numpy as np
-
 app = Flask(__name__)
 app.secret_key = "fraud_project_secret"
 
