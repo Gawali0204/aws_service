@@ -81,11 +81,14 @@ def init_db():
     conn.commit()
     conn.close()
 
-def get_dashboard_stats():
-    conn = sqlite3.connect(DB_FILE)
-    cursor = conn.cursor()
+    hello
 
-    cursor.execute("SELECT COUNT(*) FROM transactions")
+
+
+
+
+
+    
     total = cursor.fetchone()[0]
 
     cursor.execute("SELECT COUNT(*) FROM transactions WHERE result = 'Fraud'")
